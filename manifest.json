@@ -8,6 +8,17 @@
     "page": "options.html",
     "open_in_tab": true
   },
+  "icons": {
+    "128": "icon_128.jpg"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon_16.jpg",
+      "38": "icon_38.jpg",
+      "48": "icon_48.jpg",
+      "128": "icon_128.jpg"
+    }
+},
   "content_scripts": [
     {
       "matches": [
