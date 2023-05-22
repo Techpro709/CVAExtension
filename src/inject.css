@@ -1,0 +1,49 @@
+app-student-courses.ng-star-inserted{
+    background-size:cover !important;
+    }
+    mat-drawer-content.mat-drawer-content.app-background, .calendar-list, app-announcement-detail, .notes-list, .app-dark-theme .mat-table{
+    background:var(--card-layout-background)!important;
+    background-size:cover !important;
+    }
+    
+    
+    /* .calendar-list, .activity-title{
+        color: white;
+    } */
+    
+    .list-date-event.ng-star-inserted:hover{
+        color: black;
+    }
+    
+    
+    
+    
+    .mat-card{
+    border-radius: 35px!important;
+    }
+    
+    .mat-card-image.course-card-image.rounded.ng-star-inserted{
+    border-radius: 35px 35px 0 0!important;
+    }
+    
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > mat-card {
+        border-radius: 75px!important;
+    }
+    
+    h2.date-header {
+        margin: auto!important;
+    }
+    
+    .app-dark-theme .mat-card:not([class*=mat-elevation-z]){
+    box-shadow:5px 5px 1px -1px #0003, 9px 9px 1px #00000024, 14px 14px 3px #0000001f!important;
+    }
+    
+    mat-sidenav.mat-drawer.mat-sidenav.ng-tns-c351-0.ng-trigger.ng-trigger-transform.mat-drawer-over.ng-star-inserted.mat-drawer-opened {
+        border-radius: 35px!important;
+    }
+    
+    /* Test Features */
+    
+    .mat-raised-button{
+    border-radius: 20px!important;
+    }

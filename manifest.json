@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CVA Extension",
+  "version": "1.0",
+  "description": "CVA THEME for the school page",
+  "permissions": ["storage"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.agilixbuzz.com/student/*",
+        "*://*.agilixbuzz.com/teacher/*"
+      ],
+      "js": ["src/inject.js"],
+      "css": ["src/inject.css"]
+    }
+  ]
+}
